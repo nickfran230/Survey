@@ -1,0 +1,39 @@
+body{background-color: lightgrey;
+background-image: url("https://res.cloudinary.com/ybmedia/image/upload/c_crop,h_1123,w_2000,x_0,y_37/c_fill,f_auto,h_900,q_auto,w_1600/v1/m/0/5/05def4802162923922c17bae3fbc30b523a0928d/fox-threw-serious-shade-zach-wilson-brutal-graphic.jpg");
+text-align: center;
+font-family: sans-serif;
+color: white;
+}
+
+form{max-width: 500px; text-align: left;
+padding: 20px;
+border: 2px solid black;
+border-radius: 10px;
+}
+input{
+padding: 5px;
+border: none;
+border-radius: 5px;
+}
+.input element{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+select{padding: 5px;
+border: none;
+border-radius: 5px;
+}
+input[type="checkbox"]{
+  width: 15px;
+  height: 15px;
+  margin: 2px
+}
+h1 {padding: 5px;
+border: none;
+border-radius: 5px;}
+label{padding: 5px;
+border: none;
+border-radius: 5px;
+}
+hr{border-color: black;}
