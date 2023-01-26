@@ -1,0 +1,90 @@
+<!Doctype html>
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <title>Survey Form</title>
+    </head>
+    <body>
+ <header>
+<h1 id="title">What can the Jets do to improve Zach Wilson's quarterback play in 2023?</h1>
+  <p id="description">Thank you for taking the time to fill out this survey </p>
+  </header>
+<main>
+<form id="survey-form">
+  <div class="input-element">
+  <label for="name" id="name-label">Name:</label>
+  <input id="name" type="text" placeholder="name" required/>
+  <hr>
+</div>
+  <div class="input-element">
+  <label for="email" id="email-label">
+    Email:
+    </label>
+  <input id="email" type="email" placeholder="email" required/>
+  <hr>
+</div>
+  <div class="input-element">
+    <label for="number" id="number-label">Age:</label>
+  <input id ="number" type="number" min="8" max="120"  placeholder="age" required/>
+  <hr>
+</div>
+  <div class="input-element">
+  <label id="select-label">
+    Are you a Jets fan?
+    </label>
+    <select id="dropdown">
+      <option>Yes </option>
+      <option>No</option>
+<option>Maybe in the future</option>
+    </select>
+    <hr>
+</div>
+<div>
+  <label>Can Zach Wilson be a "HIM" in the NFL?</label>
+  <div>
+  <input type="radio" name="radio-group" id="Yes" value="0">
+  <label for="Yes">Yes</label>
+  </div>
+  <div>
+  <input type="radio" name="radio-group" id="No" value="1">
+  <label for="No">No</label>
+  </div>
+  <hr>
+<div>
+  <label>What are some ways to help Zach start playing good consistent football?</label>
+  </div>
+  <div>
+  <label><input type="checkbox" name="Develop" value="0">Develop a great off-season plan
+  </label>
+  </div>
+  <div>
+  <label><input type="checkbox" name="skills" value="1">Work more on skills (Footwork, Awareness, Decision Making</label>
+  </div>
+  <div>
+    <label><input type="checkbox" name="Improve" value="2">Improve Leadership</label>
+    </div>
+    <div>
+       <label><input type="checkbox" name="OC" value="3">Change OC </label>
+      </div> 
+      <div>
+       <label><input type="checkbox" name="Offensive" value="4">Change Offensive playbook  </label>
+      </div>
+ <div>
+       <label><input type="checkbox" name="film" value="5">Study other QB's (Watch film on past era & current)</label>
+       </div>
+        <div>
+       <label><input type="checkbox" name="time" value="6">Enhance team chemistry (Spend more time with teammates)</label>
+       </div>
+        <div>
+       <label><input type="checkbox" name="practice" value="7">Practice pre-visualizing the game (Pre-game warmups, Locker room, etc.) </label>
+       </div>
+ <div>
+      <label><input type="checkbox" name="break" value="8">Take a break from Football </label>
+       </div>
+       <div>
+      <hr> <label><p> Additional comments:</p><label><textarea type="text"></textarea>
+         </div>
+         <button type="submit" id="submit">
+          Submit
+           </button>
+</form>
